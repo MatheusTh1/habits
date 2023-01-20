@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #09090a;
+  color: white;
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 48px;
+}
+
+button {
+  padding: 16px 24px;
+  border-radius: 8px;
+  border: 1px solid #8b5cf6;
+  background-color: transparent;
+  color: white;
+
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 125%;
+}
+
+form {
+  display: flex;
+  padding: 0 48px;
+}
+
+.habbits {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.habbit {
+  width: 54px;
+  height: 54px;
+
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.days {
+  display: flex;
+  margin-left: 32px;
+  gap: 48px;
+}
+
+.day {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.day div {
+  margin-bottom: 8px;
+
+  font-family: "Roboto Mono";
+  font: 20px;
+  list-style: 125%;
+
+  color: #a1a1aa;
+  text-align: center;
+}
+
+input {
+  appearance: none;
+  -webkit-appearance: none;
+
+  width: 54px;
+  height: 54px;
+
+  border: 2px solid #a78bfa;
+  border-radius: 8px;
+
+  background: #181818;
+}
+/*psudo select*/
+input:checked {
+  background: #8b5cf6;
+  border: 2ox solid #a78bfa;
+}
