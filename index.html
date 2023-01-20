@@ -1,53 +1,45 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Roboto+Mono:wght@700&display=swap"
+      rel="stylesheet"
+    />
 
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Habits</title>
+
     <link rel="stylesheet" href="./style.css" />
   </head>
-
   <body>
     <header>
-      <img src="./assets/logo.svg" alt="Logo marca do app Habits day" />
+      <img src="./assets/logo.svg" alt="Logomarca do aplicativo Habits" />
+
       <button>
-        <img src="./assets/plus.svg" alt="Sinal de mais roxo" />
-        Registrar o meu dia
+        <img src="./assets/plus.svg" alt="ícone sinal de mais roxo" />
+
+        <div>
+          Registrar o meu dia
+        </div>
       </button>
     </header>
 
-    <form action="">
-      <div class="habbits">
-        <div class="habbit">💪🏽</div>
-        <div class="habbit">💧</div>
-        <div class="habbit">💻</div>
-        <div class="habbit">📚</div>
+    <form id="form-habits">
+      <div class="habits">
+        <div class="habit" data-name="gym">💪🏽</div>
+        <div class="habit" data-name="water">💧</div>
+        <div class="habit" data-name="coding">💻</div>
+        <div class="habit" data-name="study">📚</div>
       </div>
 
-      <div class="days">
-        <div class="day">
-          <div>18/01</div>
-          <input type="checkbox" name="gym" />
-          <input type="checkbox" name="water" />
-          <input type="checkbox" name="coding" />
-          <input type="checkbox" name="study" />
-        </div>
-
-        <div class="day">
-          <div>19/01</div>
-           <input type="checkbox" name="gym" />
-          <input type="checkbox" name="water" />
-          <input type="checkbox" name="coding" />
-          <input type="checkbox" name="study" />
-        </div>
-      </div>
+      <div class="days"></div>
     </form>
 
-<script src="https://cdn.jsdelivr.net/gh/maykbrito/libs/NLWSetup/source/NLWSetup.js"></script>
-
+    <script src="https://cdn.jsdelivr.net/gh/maykbrito/libs/NLWSetup/source/NLWSetup.js"></script>
+    <script src="./script.js"></script>
   </body>
 </html>
