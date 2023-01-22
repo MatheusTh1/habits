@@ -55,15 +55,13 @@ button {
 }
 
 .habit {
-  /* width: 45px; */
+  width: 45px;
   height: 45px;
   font-size: 30px;
 
   display: flex;
-  /* align-items: center; */
-  justify-content: end;
-  color: rgb(185, 185, 185);
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  align-items: center;
+  justify-content: center;
 } 
 
 .days {
