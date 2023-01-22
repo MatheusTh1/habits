@@ -32,7 +32,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Habbits é um app para ajudar a manter constância nos seus hábitos diários, com a possibilidade de visualizar todo o histórico.
+Habits é um app para ajudar a manter constância nos seus hábitos diários, com a possibilidade de visualizar todo o histórico.
+
+- [Visite o projeto online aqui.](https://matheusth1.github.io/habits)
 
 ## 🔖 Layout
 
