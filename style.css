@@ -55,18 +55,19 @@ button {
 }
 
 .habit {
-  width: 45px;
+  /* width: 45px; */
   height: 45px;
-
-  font-size: 32px;
+  font-size: 30px;
 
   display: flex;
-  align-items: center;
-  justify-content: center;
-}
+  /* align-items: center; */
+  justify-content: end;
+  color: rgb(185, 185, 185);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+} 
 
 .days {
-  display: flex;
+  display: flex; 
   gap: 48px;
   margin-left: 32px;
 }
@@ -108,8 +109,8 @@ input:checked {
   border: 2px solid #a78bfa;
 }
 
-/* @media (max-width: 570px) {
+@media (max-width: 570px) {
   button div {
     display: none;
   }
-} */
+}
