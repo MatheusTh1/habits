@@ -7,6 +7,7 @@
 body {
   background-color: #09090a;
   color: white;
+
   height: 100vh;
 }
 
@@ -16,6 +17,10 @@ header {
   justify-content: space-between;
 
   padding: 48px;
+
+  position: fixed;
+  width: 100%;
+  background-color: #09090a;
 }
 
 button {
@@ -30,28 +35,31 @@ button {
   gap: 12px;
 
   font-family: "Inter";
-  font-size: 16px;
   font-weight: 600;
+  font-size: 16px;
   line-height: 125%;
 }
 
-form {
+#form-habits {
   display: flex;
-  padding: 0 48px;
+
+  padding: 182px 48px 48px;
+  width: fit-content;
 }
 
-.habbits {
-  margin-top: 50px;
+.habits {
+  margin-top: 54px;
   display: flex;
   flex-direction: column;
   gap: 24px;
 }
 
-.habbit {
+.habit {
   width: 54px;
   height: 54px;
 
   font-size: 32px;
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -59,8 +67,8 @@ form {
 
 .days {
   display: flex;
-  margin-left: 32px;
   gap: 48px;
+  margin-left: 32px;
 }
 
 .day {
@@ -73,10 +81,11 @@ form {
   margin-bottom: 8px;
 
   font-family: "Roboto Mono";
-  font: 20px;
-  list-style: 125%;
+  font-size: 20px;
+  line-height: 125%;
 
   color: #a1a1aa;
+
   text-align: center;
 }
 
@@ -87,13 +96,19 @@ input {
   width: 54px;
   height: 54px;
 
-  border: 2px solid #a78bfa;
+  border: 2px solid #27272a;
   border-radius: 8px;
 
-  background: #181818;
+  background: #18181b;
 }
-/*psudo select*/
+
 input:checked {
   background: #8b5cf6;
-  border: 2ox solid #a78bfa;
+  border: 2px solid #a78bfa;
+}
+
+@media (max-width: 570px) {
+  button div {
+    display: none;
+  }
 }
