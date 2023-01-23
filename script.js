@@ -16,11 +16,11 @@ function add() {
   const dayExists = nlwSetup.dayExists(today)
 
   if (dayExists) {
-    alert("Esse dia já está cadastado!")
+    alert("⚠ Esse dia já está cadastado!")
     return
   }
 
-  alert("Dia registrado com sucesso ✔")
+  alert("✔ Dia registrado com sucesso")
   nlwSetup.addDay(today)
 }
 
