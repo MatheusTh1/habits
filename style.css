@@ -123,9 +123,11 @@ input:checked {
 
 @media (max-width: 570px) {
    button {
-    width: 40%; /* definir um tamanho de largura de 80% */
+    width: 35%;
     padding: 10px; /* adicionar espaçamento para o botão */
-    font-size: 70%;
+    font-size: 75%;
+    text-align: center;
+    align-items: center;
   }
 
   .habits {
