@@ -16,7 +16,7 @@ header {
   align-items: center;
   justify-content: space-between;
 
-  padding: 48px;
+  padding: 38px;
 
   position: fixed;
   width: 100%;
@@ -39,6 +39,17 @@ button {
   font-size: 16px;
   line-height: 100%;
 }
+
+button:hover{
+  background-color: #16161a;
+  border: 2px solid #af8dfe;
+}
+
+button:active{
+  color: whitesmoke;
+  border: 2px solid whitesmoke;
+}
+
 
 #form-habits {
   display: flex;
@@ -85,8 +96,11 @@ button {
   line-height: 100%;
 
   color: #a1a1aa;
-
   text-align: center;
+}
+
+.day div:hover{
+  color: whitesmoke;
 }
 
 input {
@@ -108,7 +122,23 @@ input:checked {
 }
 
 @media (max-width: 570px) {
+   button {
+    width: 40%; /* definir um tamanho de largura de 80% */
+    padding: 10px; /* adicionar espaçamento para o botão */
+    font-size: 70%;
+  }
+
+  .habits {
+    width: 20%;
+  }
+  .day{
+     width: 20%;
+  }
+  
+}
+
+/* @media (max-width: 370px) {
   button div {
     display: none;
   }
-}
+} */
